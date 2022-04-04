@@ -1,11 +1,10 @@
 // Вешаем обработчик клика на группу с кнопками
 document.querySelector('.set').addEventListener('click', function (ev) {
 		// Проверям нажатие на инструмент
-		if(ev.target.classList.contains('key')) {
-				// передаем символ нажатой кнопки
-				makeSound(ev.target.innerText);
-				makeAnimation(ev.target.innerText);
-		}
+		// передаем символ нажатой кнопки
+		makeSound(ev.target.innerText);
+		makeAnimation(ev.target.innerText);
+
 })
 
 
